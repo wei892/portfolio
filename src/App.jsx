@@ -9,6 +9,10 @@ import "bootstrap/dist/css/bootstrap.min.css"
 // import components
 import MyNavBar from './component/NavBar'
 import HomepageBanner from './component/HomescreenBanner'
+import AboutMe from './component/AboutMe'
+import Exp from './component/Experiences'
+import Projects from './component/Projects'
+import Contacts from './component/Contacts'
 
 
 function App() {
@@ -20,7 +24,12 @@ function App() {
 
       <br>
       </br>
-      <HomepageBanner className="banner"></HomepageBanner>
+      <HomepageBanner className="banner"></HomepageBanner>\
+      <AboutMe></AboutMe>
+      <Exp></Exp>
+      <Projects></Projects>
+
+      <Contacts></Contacts>
 
     </div>
   )
