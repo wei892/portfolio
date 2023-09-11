@@ -25,11 +25,11 @@ function App() {
       <br>
       </br>
       <HomepageBanner className="banner"></HomepageBanner>\
-      <AboutMe></AboutMe>
-      <Exp></Exp>
-      <Projects></Projects>
+      {/* <AboutMe></AboutMe> */}
+      {/* <Exp></Exp> */}
+      {/* <Projects></Projects> */}
 
-      <Contacts></Contacts>
+      {/* <Contacts></Contacts> */}
 
     </div>
   )

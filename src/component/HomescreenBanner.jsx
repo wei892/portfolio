@@ -7,8 +7,8 @@ const HomepageBanner = () => {
     const [loop, setLoop] = useState(0);
     const [text, setText] = useState('');
     const [isDeleting, setIsDeleting] = useState(false);
-    const myName = "Wei Lin Li";
-    const period = 200;;
+    const myName = "Mimi Li";
+    const period = 300;
 
     useEffect(() => {
         let ticker = setInterval(() => {
@@ -19,7 +19,6 @@ const HomepageBanner = () => {
     }, [text])
 
     const tick = () => {
-        // let i = loopNum % myName.length;
         let fullText = myName;
         let updatedText = isDeleting ? fullText.substring(0, text.length -1) : fullText.substring(0, text.length + 1)
 
@@ -28,17 +27,13 @@ const HomepageBanner = () => {
         if (!isDeleting && updatedText === fullText) {
             setIsDeleting(true);
         }
-        else if (isDeleting && updatedText === ''){
+        else if (isDeleting && updatedText === 'M'){
             setIsDeleting(false);
         }
     }
 
     return (
         <Container >
-            <Row>
-            <span>Welcome to my portfolio </span>
-            </Row>
-            <br></br>
             <Row>
                 <Col sm={12} md={4} xl={4}> 
                     <h1>
