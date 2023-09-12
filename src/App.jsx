@@ -20,7 +20,7 @@ function App() {
 
   return (
     <div>
-      <MyNavBar></MyNavBar>
+      {/* <MyNavBar></MyNavBar> */}
 
       <br>
       </br>

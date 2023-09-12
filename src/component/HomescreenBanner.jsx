@@ -1,14 +1,12 @@
 import { useEffect, useState } from "react";
 import { Container, Row, Col, Button} from "react-bootstrap";
 
-const HomepageBanner = () => {
+import "./styling/HomescreenBanner.css"
 
-    // creating a state for text typing
-    const [loop, setLoop] = useState(0);
+const HomepageBanner = () => {
     const [text, setText] = useState('');
-    const [isDeleting, setIsDeleting] = useState(false);
-    const myName = "Mimi Li";
-    const period = 300;
+    const myName = "Hi, I'm Mimi";
+    const period = 250;
 
     useEffect(() => {
         let ticker = setInterval(() => {
@@ -20,39 +18,29 @@ const HomepageBanner = () => {
 
     const tick = () => {
         let fullText = myName;
-        let updatedText = isDeleting ? fullText.substring(0, text.length -1) : fullText.substring(0, text.length + 1)
-
+        let updatedText = fullText.substring(0, text.length + 1)
         setText(updatedText);
-
-        if (!isDeleting && updatedText === fullText) {
-            setIsDeleting(true);
-        }
-        else if (isDeleting && updatedText === 'M'){
-            setIsDeleting(false);
-        }
     }
 
     return (
         <Container >
-            <Row>
+            <Row className="banner">
                 <Col sm={12} md={4} xl={4}> 
                     <h1>
-                        Hi! <br/> My name is: {text}
+                        {text}
                     </h1>
                     {/* <h2>
                     《李薇玲》
                     </h2> */}
                     <p>
                         I'm a student at Hunter College - 
-                        CUNY majoring in Computer Science (BA) with a minor in Mathematics
+                        CUNY majoring in Computer Science (BA) with a minor in Mathematics.
                     </p>
-                    <Button>
-                        Learn More
-                    </Button>
+
+                    {/* social links here */}
                 </Col>
                 <Col sm={12} md ={8} xl={8}>
-                    IMG placeholder 
-                    {/* this will be for the image */}
+
                 </Col>
             </Row>
         </Container>
