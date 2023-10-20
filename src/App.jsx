@@ -1,5 +1,5 @@
 import { useState } from 'react'
-import './App.css'
+import './app.css'
 
 // importing bootstrap
 import { Button, Navbar } from 'react-bootstrap'
@@ -25,7 +25,7 @@ function App() {
       <br>
       </br>
       <HomepageBanner className="banner"></HomepageBanner>\
-      {/* <AboutMe></AboutMe> */}
+      <AboutMe></AboutMe>
       {/* <Exp></Exp> */}
       {/* <Projects></Projects> */}
 

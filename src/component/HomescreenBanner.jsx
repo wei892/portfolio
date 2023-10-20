@@ -1,6 +1,8 @@
 import { useEffect, useState } from "react";
 import { Container, Row, Col, Button} from "react-bootstrap";
 
+import './cssFiles/homesceen.css'
+
 const HomepageBanner = () => {
 
     // creating a state for text typing
@@ -33,26 +35,34 @@ const HomepageBanner = () => {
     }
 
     return (
-        <Container >
+        <Container className="homepageBanner">
             <Row>
-                <Col sm={12} md={4} xl={4}> 
-                    <h1>
-                        Hi! <br/> My name is: {text}
-                    </h1>
-                    {/* <h2>
-                    《李薇玲》
-                    </h2> */}
-                    <p>
-                        I'm a student at Hunter College - 
-                        CUNY majoring in Computer Science (BA) with a minor in Mathematics
-                    </p>
-                    <Button>
-                        Learn More
-                    </Button>
+                <Col sm={12} md={5} xl={5}> 
+                    <div className="bioCont">
+                        <h1>
+                            Hi! I'm {text}
+                        </h1>
+                        <p>
+                            I'm a student at Hunter College - 
+                            CUNY majoring in Computer Science (BA) with a minor in Mathematics
+                        </p>
+                        <div className="linkContainer">
+                            <div> About Me </div>
+
+                            <div> Linked In </div>
+                            <div> Github </div>
+                            
+                        </div>
+                    </div>
                 </Col>
-                <Col sm={12} md ={8} xl={8}>
-                    IMG placeholder 
-                    {/* this will be for the image */}
+                <Col sm={12} md ={7} xl={7}>
+                    <div className="bioCont heartCont">
+
+                        <div className="heart">
+
+                        </div>
+
+                    </div>
                 </Col>
             </Row>
         </Container>
