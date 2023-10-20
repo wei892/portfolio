@@ -10,6 +10,8 @@ const AboutMe = () => {
     return (
         <>
         <div className='aboutMeBanner'>
+            <div> Image of Me </div>
+
 
         </div>
         

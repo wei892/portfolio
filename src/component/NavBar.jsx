@@ -8,7 +8,7 @@ const MyNavBar = () => {
     const [show, setShowStatus] = useState(false);
 
     return(
-        <div className='navBar'>
+        <div className='navBar navigation'>
             <div className='leftCont'>
                 <h1> Mimi</h1>
             </div>
@@ -27,10 +27,7 @@ const MyNavBar = () => {
 
                 <div className='navButton'> 
                     <h5> Home </h5> 
-                </div>
-
-                
-                
+                </div> 
             </div>
         </div>
     )

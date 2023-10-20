@@ -1,5 +1,4 @@
 import { useState } from 'react'
-import './app.css'
 
 // importing bootstrap
 import { Button, Navbar } from 'react-bootstrap'
