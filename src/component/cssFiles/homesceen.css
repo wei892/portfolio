@@ -1,0 +1,42 @@
+.homepageBanner{
+    background-color: pink;
+}
+
+.bioCont{
+    margin-top: 200px;
+}
+
+.heartCont{
+    margin-left: 200px;
+}
+
+
+.heart {
+    position: relative;
+    width: 150px;
+    height: 120px;
+    margin-top: 0px;
+    filter: blur(25px);
+}
+
+.heart::before, .heart::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    width: 150px;
+    height: 220px;
+    border-radius: 100px 100px 0 0;
+    background: rgb(255, 132, 152);
+}
+  
+.heart::before {
+    left: 150px;
+    transform: rotate(-45deg);
+    transform-origin: 0 100%;
+}
+  
+.heart::after {
+    left: 0;
+    transform: rotate(45deg);
+    transform-origin: 100% 100%;
+}
