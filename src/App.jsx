@@ -26,7 +26,7 @@ function App() {
 
       <HomepageBanner className="banner"></HomepageBanner>
       <AboutMe> </AboutMe>
-      {/* <Exp></Exp> */}
+      <Exp></Exp>
       {/* <Projects></Projects> */}
 
       {/* <Contacts></Contacts> */}
