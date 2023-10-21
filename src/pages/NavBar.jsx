@@ -1,6 +1,6 @@
 
 // components
-import './cssFiles/NavBar.css'
+import '../cssFiles/NavBar.css'
 
 import { useEffect, useState } from 'react';
 

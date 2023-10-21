@@ -6,12 +6,13 @@ import "bootstrap/dist/css/bootstrap.min.css"
 
 
 // import components
-import MyNavBar from './component/NavBar'
-import HomepageBanner from './component/HomescreenBanner'
-import AboutMe from './component/AboutMe'
-import Exp from './component/Experiences'
-import Projects from './component/Projects'
-import Contacts from './component/Contacts'
+import MyNavBar from './pages/NavBar'
+import HomepageBanner from './pages/HomescreenBanner'
+import AboutMe from './pages/AboutMe'
+import Exp from './pages/Experiences'
+import Projects from './pages/Projects'
+import Contacts from './pages/Contacts'
+import Footer from './pages/Footer'
 
 
 function App() {
@@ -21,15 +22,16 @@ function App() {
     <div>
       <MyNavBar></MyNavBar>
 
-      <br>
-      </br>
-      <HomepageBanner className="banner"></HomepageBanner>\
-      <AboutMe></AboutMe>
+      <br></br>
+
+      <HomepageBanner className="banner"></HomepageBanner>
+      <AboutMe> </AboutMe>
       {/* <Exp></Exp> */}
       {/* <Projects></Projects> */}
 
       {/* <Contacts></Contacts> */}
-
+      <br></br>
+      <Footer></Footer> 
     </div>
   )
 }
