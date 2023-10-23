@@ -4,7 +4,7 @@ const WorkExperiences = [
         position: "QA Analyst Intern",
         location: "New york City, New York",
         duration:"Sep 2023 - Present",
-        description: []
+        description: ["hello", "hello"]
     },
     {
         company: "The Coding Space",

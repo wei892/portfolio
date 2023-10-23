@@ -18,7 +18,10 @@ const Exp = () =>{
                     WorkExperiences.map((work, index) => 
                         <WorkCard 
                             company = {work.company}
-                        />
+                            position = {work.position}
+                            location = {work.location}
+                            duration = {work.duration}
+                            description = {work.description} />
                     )
                 :
                 <div> No work experiences Available </div>
