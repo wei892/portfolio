@@ -18,15 +18,15 @@ const MyNavBar = () => {
                 </div>
 
                 <div className='navButton'> 
-                    <h5> Home </h5> 
+                    <h5> Experiences </h5> 
                 </div>
 
                 <div className='navButton'> 
-                    <h5> Home </h5> 
+                    <h5> Projects </h5> 
                 </div>
 
                 <div className='navButton'> 
-                    <h5> Home </h5> 
+                    <h5> Resume </h5> 
                 </div> 
             </div>
         </div>

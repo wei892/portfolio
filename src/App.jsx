@@ -1,10 +1,5 @@
 import { useState } from 'react'
 
-// importing bootstrap
-import { Button, Navbar } from 'react-bootstrap'
-import "bootstrap/dist/css/bootstrap.min.css"
-
-
 // import components
 import MyNavBar from './pages/NavBar'
 import HomepageBanner from './pages/HomescreenBanner'
@@ -16,22 +11,18 @@ import Footer from './pages/Footer'
 
 
 function App() {
-  const [count, setCount] = useState(0)
-
   return (
     <div>
-      <MyNavBar></MyNavBar>
-
+      <MyNavBar/>
       <br></br>
+      <HomepageBanner className="banner" />
 
-      <HomepageBanner className="banner"></HomepageBanner>
-      <AboutMe> </AboutMe>
-      <Exp></Exp>
+      {/* <AboutMe> </AboutMe> */}
+      <Exp />
       {/* <Projects></Projects> */}
-
       {/* <Contacts></Contacts> */}
       <br></br>
-      <Footer></Footer> 
+      <Footer/> 
     </div>
   )
 }

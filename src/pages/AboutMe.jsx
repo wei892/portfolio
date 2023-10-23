@@ -14,6 +14,10 @@ const AboutMe = () => {
             <div className='imageCont'> 
                 <img className='aboutMeImage' src={portrait} alt='aboutMeImage'></img>
             </div>
+
+            <div>
+                Hi! I'm a Computer Science student at CUNY - Hunter College with a minor in mathematics. 
+            </div>
             
 
         </div>
