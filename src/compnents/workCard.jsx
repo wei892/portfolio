@@ -1,3 +1,4 @@
+import './workCard.css'
 
 const WorkCard = (work) => {
     // console.log(props.compan)
@@ -9,15 +10,15 @@ const WorkCard = (work) => {
         <>
             <div className="workCard">
                 <div className="header">
-                    <div> <h4>{work.position}</h4> </div>
-                    <div> <h5>{work.duration}</h5> </div>
+                    <div className='position'> {work.position}</div>
+                    <div className='duration'> {work.duration}</div>
                 </div>
                 <div className="companyLine">
-                    <div> <h5>{work.company}</h5></div>
-                    <div> <h5>{work.location}</h5></div>
+                    <div className='company'> {work.company}</div>
+                    <div className='location'> {work.location}</div>
                 </div>
-                <div>
-                    <h5> Description </h5>
+                <div className='desc'>
+                    Description 
                     <ul>
                         {
                             work.description.map((desc, ind) =>
@@ -26,7 +27,6 @@ const WorkCard = (work) => {
                         }
                     </ul>
                 </div>
-
             </div>
         </>
     )

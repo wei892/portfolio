@@ -1,5 +1,7 @@
 import { useState } from 'react'
 
+import './cssFiles/app.css'
+
 // import components
 import MyNavBar from './pages/NavBar'
 import HomepageBanner from './pages/HomescreenBanner'
@@ -17,12 +19,13 @@ function App() {
       <br></br>
       <HomepageBanner className="banner" />
 
-      {/* <AboutMe> </AboutMe> */}
+      <AboutMe> </AboutMe>
       <Exp />
       {/* <Projects></Projects> */}
       {/* <Contacts></Contacts> */}
-      <br></br>
+
       <Footer/> 
+
     </div>
   )
 }

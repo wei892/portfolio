@@ -7,12 +7,6 @@ const Exp = () =>{
     return (
         <>
             <div className='expCont'>
-            {/* {
-                WorkExperiences.map((work, index) => {
-                   
-                })
-            } */}
-            {/* <WorkCard></WorkCard> */}
             {
                 WorkExperiences && WorkExperiences.length > 0 ? 
                     WorkExperiences.map((work, index) => 
@@ -26,7 +20,6 @@ const Exp = () =>{
                 :
                 <div> No work experiences Available </div>
             }
-
             </div>
         </>
       );

@@ -3,7 +3,6 @@ import portrait from '../imgs/protrait.png'
 
 
 //import components
-import Contacts from "./Contacts"
 
 
 const AboutMe = () => {
@@ -11,9 +10,9 @@ const AboutMe = () => {
         <>
         <div className='aboutMeBanner'>
             <br/>
-            <div className='imageCont'> 
+            {/* <div className='imageCont'> 
                 <img className='aboutMeImage' src={portrait} alt='aboutMeImage'></img>
-            </div>
+            </div> */}
 
             <div>
                 Hi! I'm a Computer Science student at CUNY - Hunter College with a minor in mathematics. 

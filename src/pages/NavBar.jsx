@@ -1,12 +1,7 @@
-
 // components
 import '../cssFiles/NavBar.css'
 
-import { useEffect, useState } from 'react';
-
 const MyNavBar = () => {
-    const [show, setShowStatus] = useState(false);
-
     return(
         <div className='navBar navigation'>
             <div className='leftCont'>
