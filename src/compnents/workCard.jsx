@@ -18,7 +18,6 @@ const WorkCard = (work) => {
                     <div className='location'> {work.location}</div>
                 </div>
                 <div className='desc'>
-                    Description 
                     <ul>
                         {
                             work.description.map((desc, ind) =>

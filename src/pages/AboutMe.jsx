@@ -15,7 +15,7 @@ const AboutMe = () => {
             </div> */}
 
             <div>
-                Hi! I'm a Computer Science student at CUNY - Hunter College with a minor in mathematics. 
+                {/* Computer Science student at CUNY - Hunter College with a minor in mathematics.  */}
             </div>
             
 

@@ -10,8 +10,7 @@ const HomepageBanner = () => {
                         Hi! I'm Mimi Li
                     </h2>
                     <p>
-                        I'm a student at Hunter College - 
-                        CUNY majoring in Computer Science (BA) with a minor in Mathematics
+                        Computer Science student at CUNY - Hunter College with a minor in Mathematics
                     </p>
                     <div className="linkContainer">
                         <div> About Me </div>
