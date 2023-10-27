@@ -1,9 +1,12 @@
 import '../cssFiles/aboutme.css'
-// import portrait from '../imgs/protrait.png'
+import portrait from '../imgs/protrait.png'
 import { Route, useRouteError } from 'react-router-dom'
 
 
 //import components
+import BusinessDisplaay from '../compnents/bizDisplay'
+import StudentDisplay from '../compnents/studentDisplay'
+
 // let persona = useRoute({
 
 // })
@@ -31,7 +34,9 @@ const AboutMe = () => {
                     
                 </div>
             </div>
-            
+
+            <StudentDisplay />
+            <BusinessDisplaay />
             
 
         </div>
