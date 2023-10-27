@@ -1,8 +1,12 @@
 import '../cssFiles/aboutme.css'
-import portrait from '../imgs/protrait.png'
+// import portrait from '../imgs/protrait.png'
+import { Route, useRouteError } from 'react-router-dom'
 
 
 //import components
+// let persona = useRoute({
+
+// })
 
 
 const AboutMe = () => {
@@ -14,9 +18,20 @@ const AboutMe = () => {
                 <img className='aboutMeImage' src={portrait} alt='aboutMeImage'></img>
             </div> */}
 
-            <div>
-                {/* Computer Science student at CUNY - Hunter College with a minor in mathematics.  */}
+            <div className='details'>
+                Chech out what I'm doing in each role
+                <div className='buttonCont'>
+                    <div className='button'>
+                        Student
+                    </div>
+
+                    <div className='button'>
+                        Entrepreneuer
+                    </div>
+                    
+                </div>
             </div>
+            
             
 
         </div>

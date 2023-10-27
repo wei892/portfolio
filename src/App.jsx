@@ -1,5 +1,5 @@
 import { useState } from 'react'
-import { Router } from 'react-router-dom'
+import { Router, useRouteError } from 'react-router-dom'
 
 import './cssFiles/app.css'
 
@@ -18,7 +18,7 @@ function App() {
     <div>
       <MyNavBar/>
       <br></br>
-      <HomepageBanner className="banner" />
+      <HomepageBanner className="banner" id= 'home'/>
 
       <AboutMe> </AboutMe>
       <Exp />
