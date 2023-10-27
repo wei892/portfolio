@@ -1,0 +1,35 @@
+.workCard{
+    /* background-color: rgb(53, 129, 196); */
+    max-width: 80%;
+    width: 80%;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 20px;
+    border: solid 2px pink;
+}
+
+.header{
+    display: flex;
+    margin: 0px 25px;
+    padding: 0;
+    justify-content: space-between;
+}
+
+.companyLine{
+    padding: 0;
+    display: flex;
+    margin: 0px 25px;
+    justify-content: space-between;
+}
+
+
+
+.desc{
+    margin: 0px 25px;
+}
+
+ul{
+    margin: 0;
+}
+
+
