@@ -2,7 +2,19 @@
     text-align: center;
     width: 80%;
     margin: auto;
+    display: flex;
+    flex-direction: column;
     justify-content: center;
+    background-color: aquamarine;
+    margin-top: 10px;
+
+}
+
+.displayCont{
+    display: flex;
+    /* flex-direction: row; */
+    justify-content: center;
+    gap: 10px;
 }
 
 .buttonContainer{
@@ -17,4 +29,8 @@
     padding: 10px;
     width: fit-content;
     border-radius: 20px;
+}
+
+.descCont {
+    padding: 0px 30px;
 }
