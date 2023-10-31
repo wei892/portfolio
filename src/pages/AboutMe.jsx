@@ -1,6 +1,6 @@
 import '../cssFiles/aboutme.css'
 import portrait from '../imgs/protrait.png'
-import { Route, useRoutes } from 'react-router-dom'
+import { useRoutes } from 'react-router-dom'
 import { Link } from 'react-router-dom'
 
 
@@ -10,6 +10,11 @@ import StudentDisplay from '../compnents/studentDisplay'
 
 
 const AboutMe = () => {
+    let personaElements = useRoutes([
+        {path: '/', element: <StudentDisplay/>},
+        {path: 'business', element: <BusinessDisplaay/>}
+    ])
+
     return (
         <>
         <div className='aboutMeBanner'>
@@ -23,17 +28,21 @@ const AboutMe = () => {
             <div className='details'>
                 I am a:
                 <div className='buttonCont'>
-                    <div className='button'>
-                        Student
+                    <div className='buttons'>
+                        <Link to='/aboutMe'>
+                            Student
+                        </Link>
                     </div>
 
-                    <div className='button'>
-                        Entrepreneuer
+                    <div className='buttons'>
+                        <Link to='business'>
+                            Small Business Owner
+                        </Link>
                     </div>
                 </div>
             </div>
 
-            {/* {personaElements}             */}
+            {personaElements}            
 
         </div>
         

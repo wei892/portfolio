@@ -18,14 +18,14 @@ function App() {
 
   let navElement = useRoutes([
     {path: '/', element: <HomepageBanner/>},
-    {path: '/aboutMe/*', element: <AboutMe/>},
-    {path:'/exp', element: <Exp/>},
-    {path:'/projects', element: <Projects/>},
+    {path: 'aboutMe/*', element: <AboutMe/>},
+    {path:'exp', element: <Exp/>},
+    {path:'projects', element: <Projects/>},
   ])
 
   return (
-    <div className='pageBody'>
-      {/* <MyNavBar/> */}
+    <div>
+      <div className='pageBody'>
       <header>
         <div className='navBar navigation'>
           <div className='leftCont'>
@@ -64,14 +64,12 @@ function App() {
           </div>
         </div>
       </header>
-
       {navElement}
-      
+      </div>
+
       <div className='footer'>
         <Footer/> 
       </div>
-      
-
     </div>
   )
 }
