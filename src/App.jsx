@@ -1,6 +1,6 @@
 import { useState } from 'react'
-import { Router} from 'react-router-dom'
 import { useRoutes } from 'react-router-dom'
+import { Link } from 'react-router-dom'
 
 import './cssFiles/app.css'
 import './cssFiles/NavBar.css'
@@ -11,7 +11,6 @@ import HomepageBanner from './pages/HomescreenBanner'
 import AboutMe from './pages/AboutMe'
 import Exp from './pages/Experiences'
 import Projects from './pages/Projects'
-import Contacts from './pages/Contacts'
 import Footer from './pages/Footer'
 
 
@@ -19,6 +18,9 @@ function App() {
 
   let navElement = useRoutes([
     {path: '/', element: <HomepageBanner/>},
+    {path: '/aboutMe/*', element: <AboutMe/>},
+    {path:'/exp', element: <Exp/>},
+    {path:'/projects', element: <Projects/>},
   ])
 
   return (
@@ -30,16 +32,30 @@ function App() {
             <h1> Mimi</h1>
           </div>
           <div className='rightCont'>
+
             <div className='navButton'> 
-              <h5> Home </h5> 
+              <Link to='/'> 
+                <h5> Home </h5>
+              </Link>
+            </div>
+
+            <div className='navButton'>
+              <Link to='/aboutMe'>
+                <h5> About Me </h5> 
+              </Link>
+
             </div>
 
             <div className='navButton'> 
-              <h5> Experiences </h5> 
+              <Link to='/exp'>
+                <h5> Experiences </h5> 
+              </Link>
             </div>
 
             <div className='navButton'> 
-              <h5> Projects </h5> 
+              <Link to='/projects'>
+                <h5> Projects </h5> 
+              </Link>
             </div>
 
             <div className='navButton'> 
