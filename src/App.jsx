@@ -24,7 +24,7 @@ function App() {
   ])
 
   return (
-    <div>
+    <div className='pageBody'>
       {/* <MyNavBar/> */}
       <header>
         <div className='navBar navigation'>
@@ -67,8 +67,10 @@ function App() {
 
       {navElement}
       
-
-      <Footer/> 
+      <div className='footer'>
+        <Footer/> 
+      </div>
+      
 
     </div>
   )
