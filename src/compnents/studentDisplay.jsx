@@ -1,23 +1,27 @@
+// import css
+import './studentDisplay.css'
+
 
 const StudentDisplay = () => {
     return (
         <>
-            <div> Always Learning </div>
+            <div className='displayCont'>
+                {/* <div className="header"> Always Learning </div> */}
 
-            <div> 
-                What I Am Learning Now:
-                <div>
-
+                <div className='title'> 
+                    What I Am Learning Now:
+                    <div>
+                        here's a div that will contain my current project
+                    </div>
                 </div>
-            </div>
-            
-            <div>
                 What I've Learned 
-                <div>
-                    Blog Site
-                </div>
-                <div>
-                    My Projects
+                <div className='buttonContainer'>
+                    <div className='button'>
+                        Blog Site
+                    </div>
+                    <div className='button'>
+                        My Projects
+                    </div>
                 </div>
             </div>
 
