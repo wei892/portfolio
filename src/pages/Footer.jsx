@@ -8,10 +8,10 @@ const Footer = () => {
                 <div > Mimi (Wei Lin)  Li @ 2023 </div> <br></br>
                 <div> Connect with Me: </div> <br></br>
                 <div className='socialsCont'> 
-                    <img className='social' alt='GitHub'/>
-                    <img className='social' alt='Linked In'/>
-                    <img className='social' alt='Resume'/>
-                    <img className='social' alt='Email'/>
+                    <a className='social' href=''> Github </a>
+                    <a className='social' href=''> Linked In </a>
+                    <a className='social' href=''> Email </a>
+                    <a className='social' href=''> Resume </a>
                 </div>
 
             </div>

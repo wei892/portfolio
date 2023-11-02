@@ -53,3 +53,8 @@
     display: flex;
     gap: 10px;
 }
+
+a{
+    text-decoration: none;
+    color: rgb(176, 176, 176);
+}
