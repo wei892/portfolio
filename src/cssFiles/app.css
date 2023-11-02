@@ -1,8 +1,3 @@
-*{
-    margin: 0px;
-    padding: 0px;
-}
-
 .pageBody{
     position: relative;    
     min-height: calc(100vh - 80px);
