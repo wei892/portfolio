@@ -6,11 +6,11 @@
     width: 150px;
     height: 150px;
     border-radius: 200px;
-    background-color: rgb(255, 255, 255);
+    /* background-color: rgb(255, 255, 255); */
     margin: auto;
     justify-content: center;
     align-self: center;
-    border: solid 5px rgb(201, 233, 255);
+    border: solid 5px rgb(222, 162, 179);
     padding: 10px;
 }
 
@@ -37,8 +37,10 @@
 }
 
 .buttons{
-    background-color: rgb(225, 241, 255);
-    padding: 5px 10px;
+    /* background-color: rgb(225, 241, 255);
+     */
+    border: solid 2px rgb(222, 162, 179);
     width: fit-content;
-    border-radius: 5px;
+    border-radius: 20px;
+    padding: 5px 10px;
 }

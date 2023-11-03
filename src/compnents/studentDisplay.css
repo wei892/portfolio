@@ -22,8 +22,8 @@
 }
 
 .button{
-    background-color: rgb(225, 241, 255);
-    padding: 10px;
+    border: solid rgb(222, 162, 179) 2px;
+    padding: 5px 10px;
     width: fit-content;
     border-radius: 20px;
 }

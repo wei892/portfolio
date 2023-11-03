@@ -20,7 +20,7 @@ const AboutMe = () => {
         <div className='aboutMeBanner'>
             <br/>
             <div className='imageCont'> 
-                <img className='aboutMeImage' src={portrait} alt='An image of me'></img>
+                {/* <img className='aboutMeImage' src={portrait} alt='An image of me'></img> */}
             </div>
 
             <br></br>
@@ -28,17 +28,18 @@ const AboutMe = () => {
             <div className='details'>
                 I am a:
                 <div className='buttonCont'>
-                    <div className='buttons'>
-                        <Link to='/aboutMe'>
-                            Student
-                        </Link>
-                    </div>
 
-                    <div className='buttons'>
-                        <Link to='business'>
-                            Small Business Owner
-                        </Link>
-                    </div>
+                    <Link to="/aboutMe">
+                        <div className='buttons'>
+                            Student
+                        </div>
+                    </Link>
+
+                    <Link to="business">
+                        <div className='buttons'>
+                            Small Biz Owner
+                        </div>
+                    </Link>
                 </div>
             </div>
 

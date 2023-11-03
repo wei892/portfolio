@@ -24,7 +24,7 @@ function App() {
   ])
 
   return (
-    <div>
+    <div className='pageCont'>
       <div className='pageBody'>
       <header>
         <div className='navBar navigation'>
