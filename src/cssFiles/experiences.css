@@ -1,8 +1,11 @@
+.title{
+    width: fit-content;
+    margin: auto;
+}
+
 .expCont{
-    width: 100%;
-    /* background-color: aquamarine; */
     display: flex;
-    flex-wrap: wrap;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     padding: 10px;

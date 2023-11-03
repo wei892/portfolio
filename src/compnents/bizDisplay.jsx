@@ -15,9 +15,21 @@ const BusinessDisplaay = () => {
 
                     Check out my shop below!
                     <div className='buttonContainer'>
-                        <div className='button'> Instagram </div>
-                        <div className='button'> Etsy </div>
-                        <div className='button'> Youtube </div>
+                        <div className='button'>
+                            <a href=''>
+                                Instagram
+                            </a>
+                        </div>
+                        <div className='button'> 
+                            <a href=''>
+                                Etsy
+                            </a> 
+                        </div>
+                        <div className='button'> 
+                            <a href=''>
+                                Youtube
+                            </a> 
+                        </div>
                     </div>
             </div>
         

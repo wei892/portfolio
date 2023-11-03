@@ -8,7 +8,6 @@ import { Link } from 'react-router-dom'
 import BusinessDisplaay from '../compnents/bizDisplay'
 import StudentDisplay from '../compnents/studentDisplay'
 
-
 const AboutMe = () => {
     let personaElements = useRoutes([
         {path: '/', element: <StudentDisplay/>},
@@ -18,7 +17,6 @@ const AboutMe = () => {
     return (
         <>
         <div className='aboutMeBanner'>
-            <br/>
             <div className='imageCont'> 
                 {/* <img className='aboutMeImage' src={portrait} alt='An image of me'></img> */}
             </div>
