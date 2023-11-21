@@ -19,9 +19,10 @@
 .navButton{
     padding: 0px 10px 0px 10px;
     height: 50px;
+    transition: background-image 1s;
 }
 
 .navButton:hover{
-
+    transition-timing-function: ease-in-out;
      background-image: linear-gradient(white, rgb(255, 210, 220));
 }
