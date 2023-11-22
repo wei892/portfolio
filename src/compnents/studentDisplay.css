@@ -35,3 +35,7 @@
 .descCont {
     padding: 0px 30px;
 }
+
+.itemList{
+    text-align: start;
+}

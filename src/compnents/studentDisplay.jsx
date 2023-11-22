@@ -9,9 +9,24 @@ const StudentDisplay = () => {
                 {/* <div className="header"> Always Learning </div> */}
 
                 <div className='title'> 
-                    What I Am Learning Now:
-                    <div>
-                        here's a div that will contain my current project
+                    <b> What I Am Working On Now: </b>
+                    <div className='itemList'>
+                        <ul>
+                            <li>
+                                Interning with the MTA as a QA analyst intern
+                            </li>
+                            <li>
+                                Learning Python
+                                <ul>
+                                    <li>
+                                        Building a tik-tac-toe game
+                                    </li>
+                                </ul>
+                            </li>
+                            <li>
+                                Learning to use Postges and SQL queries
+                            </li>
+                        </ul>
                     </div>
                 </div>
                 What I've Learned 
