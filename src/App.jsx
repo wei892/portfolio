@@ -10,6 +10,7 @@ import AboutMe from './pages/AboutMe'
 import Exp from './pages/Experiences'
 import Projects from './pages/Projects'
 import Footer from './pages/Footer'
+import ResumePage from './pages/Resume'
 
 
 function App() {
@@ -19,6 +20,7 @@ function App() {
     {path: 'aboutMe/*', element: <AboutMe/>},
     {path:'exp', element: <Exp/>},
     {path:'projects', element: <Projects/>},
+    {path: 'resume', element: <ResumePage/>}
   ])
 
   return (
@@ -57,7 +59,7 @@ function App() {
             </div>
 
             <div className='navButton'> 
-              <h5> Resume </h5> 
+              <Link to="resume"><h5> Resume </h5></Link>
             </div> 
           </div>
         </div>
