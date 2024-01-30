@@ -1,14 +1,15 @@
-*{
-    color: rgb(127, 100, 93);
+* {
+  color: rgb(232, 222, 220);
+  background-color: rgb(32, 32, 32);
 }
-.pageBody{
-    position: relative;    
-    min-height: calc(100vh - 80px);
+.pageBody {
+  position: relative;
+  min-height: calc(100vh - 80px);
 }
 
-.footer{
-    position: relative;
-    bottom: 0px;
-    height: fit-content;
-    margin: auto;
+.footer {
+  position: relative;
+  bottom: 0px;
+  height: fit-content;
+  margin: auto;
 }

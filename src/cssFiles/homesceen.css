@@ -1,4 +1,9 @@
-.homepageBanner{
+a {
+  text-decoration: none;
+}
+
+@media all and (min-width: 700px) {
+  .homepageBanner {
     margin: 90px 0px 0px;
     padding: 0px;
     width: 100%;
@@ -6,23 +11,96 @@
     display: flex;
     align-content: center;
     justify-content: center;
-}
+  }
 
-.bioCont{
+  .bioCont {
     margin: 10%;
     margin-top: 110px;
     width: 30%;
+  }
+
+  .heart {
+    position: relative;
+    width: 200px;
+    height: 150px;
+    margin-top: 0px;
+    filter: blur(25px);
+  }
+
+  .heart::before,
+  .heart::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    width: 185px;
+    height: 275px;
+    border-radius: 100px 100px 0 0;
+    background: rgb(255, 210, 220);
+  }
+
+  .heart::before {
+    left: 150px;
+    transform: rotate(-45deg);
+    transform-origin: 0 100%;
+  }
+
+  .heart::after {
+    left: 0;
+    transform: rotate(45deg);
+    transform-origin: 100% 100%;
+  }
+
+  .linkContainer {
+    display: flex;
+    gap: 10px;
+  }
+
+  a {
+    text-decoration: none;
+  }
 }
 
-.heart {
+@media all and (min-width: 400px) and (max-width: 700px) {
+  .homepageBanner {
+    width: 90%;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+  }
+
+  .homepageBanner {
+    text-align: center;
+  }
+
+  .bioCont {
+    margin: 10%;
+    margin-top: 110px;
+    width: 90%;
+  }
+
+  .linkContainer {
+    flex-direction: row;
+    gap: 10px;
+    flex-flow: center;
+  }
+
+  .heartCont {
+    width: 60%;
+    margin: auto;
+  }
+
+  .heart {
     position: relative;
     width: 150px;
     height: 120px;
     margin-top: 0px;
     filter: blur(25px);
-}
+  }
 
-.heart::before, .heart::after {
+  .heart::before,
+  .heart::after {
     content: "";
     position: absolute;
     top: 0;
@@ -30,25 +108,21 @@
     height: 220px;
     border-radius: 100px 100px 0 0;
     background: rgb(255, 210, 220);
-}
-  
-.heart::before {
-    left: 150px;
+  }
+
+  .heart::before {
+    left: 170px;
     transform: rotate(-45deg);
     transform-origin: 0 100%;
-}
-  
-.heart::after {
-    left: 0;
+  }
+
+  .heart::after {
+    left: 20px;
     transform: rotate(45deg);
     transform-origin: 100% 100%;
-}
+  }
 
-.linkContainer{
-    display: flex;
-    gap: 10px;
-}
-
-a{
-    text-decoration: none;
+  .blank_spacing {
+    height: 150px;
+  }
 }
