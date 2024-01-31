@@ -2,7 +2,7 @@ a {
   text-decoration: none;
 }
 
-@media all and (min-width: 700px) {
+@media all and (min-width: 800px) {
   .homepageBanner {
     margin: 90px 0px 0px;
     padding: 0px;
@@ -60,7 +60,7 @@ a {
   }
 }
 
-@media all and (min-width: 400px) and (max-width: 700px) {
+@media all and (min-width: 500px) and (max-width: 800px) {
   .homepageBanner {
     width: 90%;
     height: 600px;
@@ -89,6 +89,7 @@ a {
   .heartCont {
     width: 60%;
     margin: auto;
+    /* margin-left: 20%; */
   }
 
   .heart {

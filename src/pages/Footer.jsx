@@ -13,8 +13,7 @@ const Footer = () => {
             rel="noreferrer"
             href="https://github.com/wei892"
           >
-            {" "}
-            Github{" "}
+            Github
           </a>
           <a
             className="social"
@@ -22,16 +21,13 @@ const Footer = () => {
             rel="noreferrer"
             href="https://www.linkedin.com/in/mimi-li03/"
           >
-            {" "}
-            Linked In{" "}
+            Linked In
           </a>
           <a className="social" href="mailto: wlin.li2403@gmail.com">
-            {" "}
-            Email{" "}
+            Email
           </a>
           <a className="social" href="">
-            {" "}
-            Resume{" "}
+            Resume
           </a>
         </div>
       </div>
