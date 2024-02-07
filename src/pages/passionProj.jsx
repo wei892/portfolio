@@ -2,9 +2,8 @@
 // import { useRoutes } from "react-router-dom";
 // import { Link } from "react-router-dom";
 
-// //import components
-// import BusinessDisplaay from "../compnents/bizDisplay";
-// import StudentDisplay from "../compnents/studentDisplay";
+// import design file
+import '../cssFiles/passionProj.css';
 
 const PassionProj = () => {
 
@@ -12,11 +11,11 @@ const PassionProj = () => {
     <blockquote className="instagram-media" data-instgrm-permalink="https://www.instagram.com/memoli.store/?utm_source=ig_embed&amp;utm_campaign=loading" data-instgrm-version="14" style=" background:#FFF; border:0; border-radius:3px; box-shadow:0 0 1px 0 rgba(0,0,0,0.5),0 1px 10px 0 rgba(0,0,0,0.15); margin: 1px; max-width:540px; min-width:326px; padding:0; width:99.375%; width:-webkit-calc(100% - 2px); width:calc(100% - 2px);">
     <div style="padding:16px;"> 
     <a href="https://www.instagram.com/memoli.store/?utm_source=ig_embed&amp;utm_campaign=loading" style=" background:#FFFFFF; line-height:0; padding:0 0; text-align:center; text-decoration:none; width:100%;" target="_blank" rel="noreferrer"> 
-      <div style=" display: flex; flex-direction: row; align-items: center;"> 
+      <div style=" display: flex; flex-direction: row; align-items: center; margin-left: 5px; margin-top: 5px;"> 
         <div style="background-color: #F4F4F4; border-radius: 50%; flex-grow: 0; height: 40px; margin-right: 14px; width: 40px;"></div> 
         <div style="display: flex; flex-direction: column; flex-grow: 1; justify-content: center;"> 
-          <div style=" background-color: #F4F4F4; border-radius: 4px; flex-grow: 0; height: 14px; margin-bottom: 6px; width: 100px;"></div> 
-          <div style=" background-color: #F4F4F4; border-radius: 4px; flex-grow: 0; height: 14px; width: 60px;"></div>
+          <div style=" border-radius: 4px; flex-grow: 0; height: 20px; margin-bottom: 0px; width: 100px;"> memoli.store</div> 
+          <div style=" border-radius: 4px; flex-grow: 0; height: 10px; width: 70px;"> mimi <3 </div>
         </div>
       </div>
       <div style="padding: 19% 0;"></div> 
@@ -70,8 +69,8 @@ const PassionProj = () => {
       <div className="artBuzCont">
         A title of my art hobbies 
 
-        <div className="instaProfile">
-          <div dangerouslySetInnerHTML={{ __html: embedInstaCode }}/>
+        <div>
+          <div className="instaProfile" dangerouslySetInnerHTML={{ __html: embedInstaCode }}/>
         </div>
         <div>
           background color white 

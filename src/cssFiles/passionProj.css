@@ -1,0 +1,9 @@
+.instaProfile{
+    height: fit-content;
+    /* background-color: wheat; */
+    background-color: white;
+    width: fit-content;
+    margin: 30px;
+    padding: 2px;
+    border-radius: 2px;
+}
